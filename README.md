@@ -25,7 +25,7 @@ titles, poster images, storylines, trailers, and star-ratings.
 
 **Installation**
 
-* Upload the following to your web server:
+* After making sure Python is installed (see above), upload the following to your web server:
   * entertainment_center.py
   * movie.py
   * fresh_tomatoes.py
