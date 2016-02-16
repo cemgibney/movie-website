@@ -172,9 +172,9 @@ def create_movie_tiles_content(movies):
 
 def star_ratings(movie_rating):
     if len(movie_rating) < 4:
-        movie_rating = "<img src='/Users/carolynemgibney/Documents/Code/star_icon.png'>" * len(movie_rating)  # NOQA
+        movie_rating = "<img src='https://cloud.githubusercontent.com/assets/10869319/13065742/120a0ad0-d425-11e5-871d-6e04e8592153.png'>" * len(movie_rating)  # NOQA
     else:
-        movie_rating = "<img src='/Users/carolynemgibney/Documents/Code/star_icon.png'>" * 4  # NOQA
+        movie_rating = "<img src='https://cloud.githubusercontent.com/assets/10869319/13065742/120a0ad0-d425-11e5-871d-6e04e8592153.png'>" * 4  # NOQA
     return movie_rating
 
 
